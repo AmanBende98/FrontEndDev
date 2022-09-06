@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        
+        <form action="">
+            <table style="width: 500;" border="5" align="center">
+
+                <th colspan="3">
+                    <h1 id="bigDaddy">Registration Form</h1>
+                </th>
+
+                <tr>
+                    <td rowspan="3">Registration Course</td>
+
+                    <td>
+                        SSC <input type="checkbox" name="Course" value="SSC">
+                        HSC <input type="checkbox" name="Course" value="HSC">
+                        Diploma <input type="checkbox" name="Course" value="Diploma">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        BSc <input type="checkbox" name="Course" value="BSc">
+                        B.Com <input type="checkbox" name="Course" value="B.Com">
+                        B.C.A <input type="checkbox" name="Course" value="B.C.A">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        NEET <input type="checkbox" name="Course" value="Neet">
+                        JEE <input type="checkbox" name="Course" value="JEE">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th id="baby" colspan="2">Student Details</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        Student's Name
+                    </td>
+                    <td>
+                        <input type="text" name="First Name" id="First Name" placeholder="First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Father's Name
+                    </td>
+                    <td>
+                        <input type="text" name="Middle Name" id="Middle Name" placeholder="Father's Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mother's Name
+                    </td>
+                    <td>
+                        <input type="text" name="Mother's Name" id="Mother's Name" placeholder="Mother's Name">
+                    </td>
+                <tr>
+                        <td>
+                            Date Of Birth
+                        </td>
+                        <td>
+                            <input type="date" name="DOB" id="DOB">
+                        </td>
+                </tr>
+                <tr>
+                        <td>Gender</td>
+                        <td>
+                           Male <input type="radio" name="Gender" id="Gender">
+                           Female <input type="radio" name="Gender" id="Gender">
+                           Trans-Gender <input type="radio" name="Gender" id="Gender">
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        Upload Photo
+                    </td>
+                    <td>
+                        <input type="file" name="Photo" id="Photo">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="3" id="kid" >Contact Details</th>
+                </tr>
+                <tr>
+                    <td>
+                        E-Mail ID
+                    </td>
+                    <td>
+                        <input type="email" name="Email" id="Email" placeholder="-----------@----.com">
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        Mobile Number
+                    </td>
+                    <td>
+                        <input type="text" name="Country Code" id="Country Code" value="+91" size="1px">
+                        <input type="num" name="Contact" id="Contact" maxlength="10" placeholder="10 Digit Number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                    <textarea name="Address" id="Address" cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        District
+                    </td>
+                    <td>
+                        <select name="District" id="">
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Chandrapur">Chandrapur</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        State
+                    </td>
+                    <td>
+                       <select name="State" id="">
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Pan India">Pan India</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="Buttons" align="center">
+                        <input type="button" value="Reset"> &nbsp; &nbsp;
+                        <input type="button" value="Submit">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+    </body>
+</html>

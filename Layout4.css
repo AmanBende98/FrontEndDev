@@ -1,0 +1,56 @@
+.main{
+    font-size: 25px;
+    font-family: monospace;
+    color: green;
+}
+.header{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+.nav{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+.Lcontent{
+    height: 400px;
+    width: 140px;
+    border: 1px solid black;
+    line-height: 400px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+}
+.Mcontent{
+    height: 400px;
+    width: 405px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+.Rcontent{
+    height: 400px;
+    width: 140px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+    line-height: 400px;
+    text-align: center;
+}
+.footer{
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+}

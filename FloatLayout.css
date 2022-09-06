@@ -1,0 +1,43 @@
+.main{
+    height: 2000px;
+    width: 2000px;
+    margin:auto;
+    border: 5px dotted black;
+    font-size:50px;
+}
+.logo{
+    height: 500px;
+    width: 2000px;
+    background-color: yellow;
+    border-bottom: 5px dashed black;
+    
+}
+.nav{
+    height: 300px;
+    width: 1400px;
+    background-color:aqua;
+    margin: auto;
+    float: right;
+    
+}
+.menu{
+    height: 190px;
+    width: 1400px;
+    background-color:tomato;
+    margin: auto;
+    float: right;
+}
+.container{
+    height: 1500px;
+    width: 2000px;
+    background-color: violet;
+    border-bottom: 5px dashed black;
+    margin: auto;
+    float:right;
+}
+.footer{
+    height: 253px;
+    width: 2000px;
+    background-color: springgreen;
+    float: right;
+}
